@@ -2,7 +2,7 @@
 async function getTodo() {
     try {
         const response = await fetch(
-            "https://todo-list-pq1u.onrender.com/api/v1/todo"
+            "https://management-system-vnrd.onrender.com/api/v1/user/get"
         );
         const data = response.json();
         console.log(data);
